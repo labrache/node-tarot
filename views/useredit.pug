@@ -1,0 +1,23 @@
+include header.pug
+.container.content-page
+	.row
+		.col-md-8.offset-md-2
+			h2 Modifier
+			if ok
+				.alert.alert-success(role="success") Modifications enregistrées
+			form(method="post",action="",enctype="multipart/form-data")
+				.form-group
+					label(for="name") Avatar
+					input.form-control-file(type="file",id="picture",name="picture")
+				.form-group
+					label(for="name") Nom
+					input.form-control(type="text",id="name",name="name",placeholder="Nom",value=user.name)
+				.form-group
+					label(for="mail") Adresse courriel
+					input.form-control(type="text",id="mail",name="mail",placeholder="Adresse courriel",value=user.mail)
+				.form-group
+					label(for="pass") Mot de passe
+					input.form-control(type="password",id="pass",name="pass",placeholder="Mot de passe")
+				button.btn.btn-primary(type="submit") Valider
+				a.btn.btn-default(href="/user/"+user.login) Retour
+include footer.pug

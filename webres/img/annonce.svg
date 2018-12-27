@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="191.01736"
+   height="130.89969"
+   viewBox="0 0 191.01594 130.89968"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="annonce.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.919596"
+     inkscape:cx="88.009542"
+     inkscape:cy="43.981013"
+     inkscape:document-units="px"
+     inkscape:current-layer="layerAnnonce"
+     showgrid="true"
+     borderlayer="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-grids="true"
+     inkscape:window-width="3840"
+     inkscape:window-height="2080"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1437"
+       originx="0.11273637"
+       originy="-89.67514" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:identifier>ctrbox</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style
+     id="style6">
+  .button {
+	cursor: pointer;
+  }
+  .button:hover rect.btn {
+	stroke:red !important;
+  }
+</style>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layerAnnonce"
+     transform="translate(-45.662899,-56.814324)">
+    <rect
+       style="fill:#aade87;stroke:#000000;stroke-width:1.80927932;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="annonce_bords"
+       width="189.20808"
+       height="129.09041"
+       x="46.567425"
+       y="57.718964"
+       inkscape:label="#rect1391"
+       ry="6.4833364" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="51.22588"
+       y="69.504265"
+       id="annonce_txt"
+       inkscape:label="#text1411"><tspan
+         sodipodi:role="line"
+         id="tspan1409"
+         x="51.22588"
+         y="69.504265"
+         style="stroke-width:0.26458332">Votre déclaration</tspan></text>
+    <rect
+       style="fill:#88aa00;stroke:#000000;stroke-width:1.12036586;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="deck_poignee"
+       width="170.29655"
+       height="42.92643"
+       x="55.77552"
+       y="84.46273"
+       inkscape:label="#rect1391" />
+    <g
+       class="button"
+       id="ok_annonce"
+       transform="translate(70.00034,43.571424)">
+      <rect
+         class="btn"
+         inkscape:label="#rect1391"
+         y="123.81773"
+         x="125.77518"
+         height="10"
+         width="29.999996"
+         id="ok_annonce2"
+         style="fill:#ff9955;stroke:#000000;stroke-width:0.77199996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:label="#text868"
+         id="valider_txt"
+         y="130.60344"
+         x="130.77484"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan4802"
+           x="130.77484"
+           y="130.60344">Valider</tspan></text>
+    </g>
+    <g
+       transform="translate(-69.933892,-40.297013)"
+       class="button"
+       id="misere_atout">
+      <rect
+         class="btn"
+         inkscape:label="#rect1391"
+         y="177.68617"
+         x="126.0722"
+         height="9.405961"
+         width="79.637215"
+         id="ok_matout2"
+         style="fill:#ff9955;stroke:#000000;stroke-width:1.21987772;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:label="#text868"
+         id="matout_txt"
+         y="184.26779"
+         x="139.86621"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan4804"
+           x="139.86621"
+           y="184.26779">Misère d'atout</tspan></text>
+      <rect
+         inkscape:label="#rect889"
+         y="179.86218"
+         x="128.2482"
+         height="5.1802273"
+         width="5.5590348"
+         id="led_matout"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.41374093;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(-69.933892,-20.000002)"
+       class="button"
+       id="ok_mtete">
+      <rect
+         class="btn"
+         inkscape:label="#rect1391"
+         y="177.38916"
+         x="125.77518"
+         height="10"
+         width="79.934227"
+         id="ok_mtete2"
+         style="fill:#ff9955;stroke:#000000;stroke-width:1.26015234;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:label="#text868"
+         id="mtete_txt"
+         y="184.26779"
+         x="139.86621"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan4806"
+           x="139.86621"
+           y="184.26779">Misère de tête</tspan></text>
+      <rect
+         inkscape:label="#rect889"
+         y="179.86218"
+         x="128.2482"
+         height="5.1802273"
+         width="5.5590348"
+         id="led_mtete"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.41374093;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="54.891632"
+       y="82.187386"
+       id="text4800"><tspan
+         sodipodi:role="line"
+         id="tspan4798"
+         x="54.891632"
+         y="82.187386">Déclarer une poignée</tspan></text>
+    <g
+       class="button"
+       id="cancel_annonce"
+       transform="translate(29.999744,43.571418)">
+      <rect
+         class="btn"
+         inkscape:label="#rect1391"
+         y="123.81773"
+         x="125.77518"
+         height="10"
+         width="29.999996"
+         id="cancel_annonce2"
+         style="fill:#ff9955;stroke:#000000;stroke-width:0.77199996;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:label="#text868"
+         id="cancel_annonce_txt"
+         y="130.60344"
+         x="130.77484"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan4793"
+           x="130.77484"
+           y="130.60344">Annuler</tspan></text>
+    </g>
+  </g>
+</svg>

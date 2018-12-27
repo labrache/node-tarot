@@ -1,0 +1,37 @@
+doctype html
+html(lang='fr')
+	head
+		title=locals.sitename
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/webres/css/open-iconic.css')
+		link(rel='stylesheet', href='/webres/css/styles.css')
+		script(src='/jquery/jquery.js')
+		script(src='/bootstrap/js/bootstrap.bundle.min.js')
+		script(src='/socket.io/socket.io.js')
+		script(src='/moment/moment-with-locales.min.js')
+	body
+		nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
+			a.navbar-brand(href='/')=locals.sitename
+			button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+				span.navbar-toggler-icon
+			#navbarNav.collapse.navbar-collapse
+				ul.navbar-nav
+					if session.login
+						li.nav-item
+							a.nav-link(href='/createTable') Nouvelle table
+						li.nav-item
+							a.nav-link(href='/joinTable') Rejoindre une table
+						if session.admin
+							li.nav-item
+								a.nav-link(href='/users') Gestion des utilisateurs
+				ul.navbar-nav.ml-auto
+					if session.login
+						li.nav-item
+							a.nav-link(href='/user/'+session.login)=session.name
+						li.nav-item
+							a.nav-link(href='/logout') Logout
+					else
+						li.nav-item
+							a.nav-link(href='/login') Login
+						li.nav-item
+							a.nav-link(href='/register') Inscription

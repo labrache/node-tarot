@@ -1,0 +1,189 @@
+include header.pug
+script(src='/webres/js/log.js')
+.container.content-page
+	.row
+		h1.display-3 Log de jeu
+	.row
+		h1.display-4 Configuration
+	.row
+		.col
+			
+			dl
+				dt Nom de la table
+				dd=tablelog.table.config.tablename
+				dt Type de table
+				dd=tablelog.table.config.tableconf
+				dt Spectateurs
+				dd=tablelog.table.config.spec
+		.col
+			dl
+				dt Nombre de joueurs
+				dd=tablelog.table.config.playercount
+				dt Joueurs morts
+				dd=tablelog.table.config.deadplayer
+				dt Accepter misères
+				dd=tablelog.table.config.misere
+				dt Accepter poignées
+				dd=tablelog.table.config.poignee
+				dt Montrer chien avant appel (sauf pour prenneur)
+				dd=tablelog.table.config.showchien
+		.col
+			dl
+				dt Contrat
+				dd=tablelog.table.ctr.ctr
+				dt Chelem
+				dd=tablelog.table.ctr.chelem
+				dt Prenneur
+				dd=tablelog.table.playerCtr
+				dt Carte appelée
+				dd
+					span.cards(data-id=tablelog.table.callcard)
+	.row
+		h1.display-4 Distribution
+		table.table.table-bordered
+			thead
+				tr
+					th Joueur
+					th Deck de départ
+			tbody
+				each startdeck,idx in tablelog.startdeck
+					tr
+						td=idx
+						td
+							each idcard in startdeck
+								span.cards(data-id=idcard)
+	.row
+		h1.display-4 Jeu
+		hr
+	each play in tablelog.play
+		.row
+			h4 Tour #{play.count}
+		.row
+			.col
+				table.table.table-bordered
+					thead.thead-dark
+						tr
+							th Joueur
+							th Deck
+							th joue
+							th pli
+					tbody
+						each deckplay,idp in play.playerturn
+							tr
+								if deckplay.first
+									td.bg-primary=idp
+								else
+									td=idp
+								td
+									each dcard in deckplay.playersdeck
+										span.cards(data-id=dcard)
+								if deckplay.win
+									td.bg-primary
+										span.cards(data-id=deckplay.playcards)
+								else
+									td
+										span.cards(data-id=deckplay.playcards)
+								td
+									each pcard in deckplay.pli
+										span.cards(data-id=pcard)
+		.row
+			.col
+				table.table.table-bordered
+					tbody
+						tr
+							th Attaque
+							td
+								each pliatt in play.pliatt
+									span.cards(data-id=pliatt)
+						tr
+							th Defense
+							td
+								each plidef in play.plidef
+									span.cards(data-id=plidef)
+		if play.excuse.pending
+			.row
+				.col
+					table.table.table-bordered
+						tr
+							td
+								span.cards(data-id=0)
+							td=play.excuse.player
+							if play.excuse.exchange
+								td
+									| Echange: &nbsp;
+									span.cards(data-id=play.excuse.exchange)
+							else
+								td Pas d'echange
+		hr
+	.row
+		h1.display-4 Fin de partie
+		table.table.table-bordered
+			thead.thead-dark
+				tr
+					th Pli
+					th Cartes
+			tbody
+				each playpli,idpli in tablelog.endpli.players
+					tr
+						td=idpli
+						td
+							each plicard in playpli
+								span.cards(data-id=plicard)
+				tr
+					td Attaque
+					td
+						each pliatt in tablelog.endpli.att
+							span.cards(data-id=pliatt)
+				tr
+					td Defense
+					td
+						each plidef in tablelog.endpli.def
+							span.cards(data-id=plidef)
+		hr
+	.row
+		h1.display-4 Calcul de score
+	.row
+		table.table.table-bordered
+			thead.thead-dark
+				tr
+					th Camp
+					th Points
+					th Bouts
+					th Cible
+					th Diff
+					th Multip
+					th Total
+					th Primes
+					th Distrib
+					th Attrib
+			tbody
+				tr
+					th Attaque
+					td=tablelog.recap.pointsAtt
+					td(rowspan="2")=tablelog.recap.attOuldersCount
+					td(rowspan="2")=tablelog.recap.pointsToWin
+					td=tablelog.recap.diffAtt
+					td(rowspan="2")=tablelog.recap.multiplier
+					td=tablelog.recap.totalPointsAtt
+					td=tablelog.recap.prizeAtt
+					td=tablelog.recap.distribute.att
+					td Preneur: #{tablelog.recap.PrePoints}, Cop: #{tablelog.recap.CoePoints}
+				tr
+					th Défense
+					td=tablelog.recap.pointsDef
+					td=tablelog.recap.diffDef
+					td=tablelog.recap.totalPointsDef
+					td=tablelog.recap.prizeDef
+					td=tablelog.recap.distribute.def
+					td=tablelog.recap.DefPoints
+	.row
+			table.table.table-bordered
+				thead.thead-dark
+					tr
+						th Joueur
+						th Points
+				tbody
+					each pdiff,idpx in tablelog.recap.playerDiff
+						tr
+							td=idpx
+							td=pdiff

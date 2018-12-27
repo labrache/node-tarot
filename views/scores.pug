@@ -1,0 +1,21 @@
+include header.pug
+.container.content-page
+	.row
+		.col
+			h1.display-4=table.configuration.tablename
+			hr
+	.row
+		.col
+			table.table.table-hover
+				thead.thead-dark
+					tr
+						th Tour
+						each player in players
+							th=player.player
+				tbody
+					each turn in turns
+						tr
+							th(scope="row")=turn.itcount
+							each score in turn.scores
+								td=score
+include footer.pug

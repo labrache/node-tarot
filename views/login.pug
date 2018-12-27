@@ -1,0 +1,14 @@
+include header.pug
+.container.content-page
+	.row
+		.col-md-6.offset-md-3
+			if error
+				.alert.alert-danger(role="alert")=error
+			form(method='post', action='')
+				.form-group
+					label(for='login') Nom d'utilisateur
+					input#login.form-control(type='text', name='login', placeholder="Nom d'utilisateur")
+				.form-group
+					label(for='pass') Mot de passe
+					input#pass.form-control(type='password', name='pass', placeholder='Mot de passe')
+				button.btn.btn-primary(type='submit') Connexion

@@ -1,0 +1,71 @@
+include header.pug
+.container.content-page
+	.row
+		.col
+			h1.display-4=user.name
+				if canBeFriend
+					if isFriend
+						a.btn.btn-danger.btn-sm.float-right(href=user.login+"/removeFriend")
+							span.oi(data-glyph="minus")
+							span.oi(data-glyph="person")
+							| Retirer de mes contacts
+					else
+						a.btn.btn-success.btn-sm.float-right(href=user.login+"/addFriend")
+							span.oi(data-glyph="plus")
+							span.oi(data-glyph="person")
+							| Ajouter à mes contacts
+				if canEdit
+					a.btn.btn-primary.float-right(href=user.login+"/edit")
+						span.oi(data-glyph="pencil")
+						| Editer
+			hr
+	.row
+		.col-md-4
+			if user.picture
+				img.img-fluid.rounded(src=user.pictureDir)
+			if user.admin
+				p
+				.alert.alert-dark(role="alert")
+					span.oi(data-glyph="shield")
+					| Administrateur
+			table.table.table-borderless
+				tr
+					th Nombre de parties joués
+					td=playerStats.table
+				tr
+					th Nombre de parties gagnés
+					td=playerStats.win
+			table.table.table-hover
+				thead.thead-dark
+					tr
+						th Contacts
+						th &nbsp;
+				tbody
+					each friend in friends
+						tr
+							td=friend.name
+							td
+								a.btn.btn-default.btn-sm(href="/user/"+friend.login)
+									span.oi(data-glyph="person")
+									| Profil
+		.col
+			table.table.table-hover
+				thead.thead-dark
+					tr
+						th Table
+						th Date
+						th Joueurs
+						th Tours
+						th Vainqueur
+						th &nbsp;
+				tbody
+					each score in scores
+						tr
+							td=score.configuration.tablename
+							td=score.hdate
+							td=score.configuration.playercount
+							td=score.ct
+							td=score.winner
+							td
+								a.btn.btn-success(href="/scores/"+score.tableid) Détails
+include footer.pug

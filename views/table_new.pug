@@ -1,0 +1,40 @@
+include header.pug
+script(src='/webres/js/table.js')
+.container-fluid.content-page
+	.row.justify-content-end
+		.col.text-right
+			object(type="image/svg+xml",data="webres/img/base.svg",id="table_jeu",data-id=id,data-debug=locals.testing.toString())
+		.col-md-4
+			.card.bg-dark.text-white
+				img.card_img-top.img-fluid(src="webres/img/ace.jpg")
+				.card-img-overlay
+					h3.card-title=table.tablename
+					p.card-text
+						ol
+							li.name_s1 1
+							li.name_s2 2
+							li.name_s3 3
+							li.name_s4 4
+							li.name_s5 5
+			p &nbsp;
+			.card
+				.card-header
+					ul.nav.nav-tabs.card-header-tabs(id="pills-tab",role="tablist")
+						li.nav-item
+							a.nav-link.active(id="nav-1",data-toggle="tab",href="#scores",role="tab") Scores
+						li.nav-item
+							a.nav-link(id="nav-2",data-toggle="tab",href="#gestion",role="tab") Gestion
+				.card-body
+					.tab-content
+						.tab-pane.fade.show.active(id="scores",role="tabpanel")
+							table.table.table-striped.table-sm(id="scoretable")
+								thead
+									th #
+									th.name_p1 1
+									th.name_p1 2
+									th.name_p1 3
+									th.name_p1 4
+									th.name_p1 5
+								tbody
+						.tab-pane.fade(id="gestion",role="tabpanel")
+							| lololo

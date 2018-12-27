@@ -1,0 +1,12 @@
+{
+	"port":8001,
+	"sitename":"Node-Tarot [Qualif]",
+	"databasepath": "data/dbprod.sqlite3",
+	"logpath": "data/logs/",
+	"avatarPath": "webres/data/prod/",
+	"debug": false,
+	"debugAutoplay": false,
+	"debugRecap": true,
+	"register": true,
+	"registerInviteCode": "labrache"
+}

@@ -1,0 +1,24 @@
+include header.pug
+.container.content-page
+	.jumbotron
+		h1.display-4 Hello, world!
+		p.lead
+		if session.login
+			ul
+				li
+					a(href="/createTableDbg") createTableDbg
+				li
+					a(href="/joinTableDbg") joinTableDbg
+		else
+			ul
+				li
+					a(href="/autologin/alice") Alice
+				li
+					a(href="/autologin/bob") Bob
+				li
+					a(href="/autologin/charlie") Charlie
+				li
+					a(href="/autologin/delta") Delta
+				li
+					a(href="/autologin/echo") Echo
+include footer.pug

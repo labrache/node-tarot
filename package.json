@@ -1,0 +1,25 @@
+{
+  "name": "node-tarot",
+  "version": "1.0.0",
+  "description": "Jeux de tarot en node.js",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "latest",
+    "bootstrap": "^4.0.0",
+    "cookie-session": "latest",
+    "express": "4.16.3",
+    "express-session": "1.15.6",
+    "express-socket.io-session": "1.3.3",
+    "jquery": "^3.3.1",
+    "moment": "2.21.0",
+    "multer": "^1.4.0",
+    "popper.js": "^1.12.9",
+    "pug": "latest",
+    "sharp": "^0.21.0",
+    "socket.io": "2.0.4",
+    "sqlite3": "^4.0.2",
+    "uuid": "3.2.1"
+  },
+  "author": "@labrache",
+  "license": "ISC"
+}

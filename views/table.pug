@@ -1,0 +1,109 @@
+include header.pug
+script(src='/webres/js/table.js')
+.container.content-page
+	.row.justify-content-end
+		.col-sm-12.col-md-12.col-lg-8.col-xl-9
+			object.game(type="image/svg+xml",
+				data="webres/img/base.svg",id="table_jeu",
+				data-id=id,
+				data-debug=locals.testing.toString(),
+				data-autoplay=locals.autoplay.toString()
+				data-pw=pw
+				)
+		.col-sm-12.col-md-12.col-lg-4.col-xl-3
+			#alertBox
+			.card
+				.card-header
+					ul.nav.nav-tabs.card-header-tabs(id="pills-tab",role="tablist")
+						li.nav-item
+							a.nav-link.active(id="nav-1",data-toggle="tab",href="#scores",role="tab") Scores
+						li.nav-item
+							a.nav-link(id="nav-2",data-toggle="tab",href="#gestion",role="tab") Gestion
+				.card-body
+					.tab-content
+						.tab-pane.fade.show.active(id="scores",role="tabpanel")
+							table.table.table-striped.table-sm(id="scoretable")
+								thead
+									th #
+									th.name_p1 1
+									th.name_p2 2
+									th.name_p3 3
+									th.name_p4 4
+									th.name_p5 5
+								tbody
+						.tab-pane.fade(id="gestion",role="tabpanel")
+							.card.bg-dark.text-white
+								img.card_img-top.img-fluid(src="webres/img/ace.jpg")
+								.card-img-overlay
+									h3.card-title=table.tablename
+									p.card-text=creator.name
+							.list-group.list-group-flush
+								a.list-group-item(href="javascript:switchdisplay();")
+									span.oi(data-glyph="fullscreen-enter")
+									| Basculer affichage
+								a.creator.list-group-item(href="javascript:void(0);",data-toggle="modal",data-target="#invite")
+									span.oi(data-glyph="people")
+									| Invitations
+
+#invite.modal.fade(role="dialog")
+	.modal-dialog.modal-dialog-centered
+		.modal-content
+			.modal-header
+				h5.modal-title Invitations
+				button.close(type="button",data-dismiss="modal")
+					span &times;
+			.modal-body
+				.row
+					.col
+						form#inviteform.form-inline
+							.input-group
+								input.form-control(type="text",name="invite",placeholder="Login à inviter")
+								.input-group-append
+									button.btn.btn-primary(type="submit") Inviter
+						table.table.thead-dark.table-striped.table-sm
+							thead
+								tr
+									th Contacts
+									th &nbsp;
+							tbody#invitables
+					.col
+						table.table.thead-dark.table-striped.table-sm
+							thead
+								tr
+									th Invités
+									th &nbsp;
+							tbody#invited
+			.modal-footer
+				button.btn.btn-primary(type="button",data-dismiss="modal") Fermer
+				
+#playermodal.modal.fade(role="dialog")
+	.modal-dialog.modal-dialog-centered
+		.modal-content
+			.modal-header
+				h5.modal-title Joueur
+				button.close(type="button",data-dismiss="modal")
+					span &times;
+			.modal-body
+				.row
+					.col
+						img.img-fluid.rounded
+					.col
+						h2.playername
+						span.playerlogin
+						table.table.table-borderless.table-sm
+							tr
+								th Parties joués
+								td.statPlay
+							tr
+								th Parties gagnés
+								td.statWin
+			.modal-footer
+				button.btn.btn-danger.mr-auto.isfriend(href="javascript:void(0);",onclick="removeFriend(this);")
+					span.oi(data-glyph="minus")
+					span.oi(data-glyph="person")
+					| Retirer de mes contacts
+				button.btn.btn-success.mr-auto.isNotfriend(href="javascript:void(0);",onclick="addFriend(this);")
+					span.oi(data-glyph="plus")
+					span.oi(data-glyph="person")
+					| Ajouter à mes contacts
+				button.btn.btn-primary(type="button",data-dismiss="modal") Fermer

@@ -1,0 +1,73 @@
+include header.pug
+script(src='/webres/js/newtable.js')
+.container.content-page
+	.row
+		.col
+			h1.display-4 Créer une nouvelle table
+			hr
+	form(method="post",action="")
+		.row
+			.col-md-6
+				| Configuration de la table
+			.col-md-6
+				.form-group
+					label(for="tableName") Nom de la table
+					input.form-control(name="tablename",id="tableName",type="text",placeholder="Nom de la table")
+				.form-check
+					input.form-check-input(type="radio",name="tableconf",id="pub",value="pub",checked="checked")
+					label.form-check-label(for="pub") Table publique
+				.form-check
+					input.form-check-input(type="radio",name="tableconf",id="priv",value="priv")
+					label.form-check-label(for="priv") Table avec mot de passe
+					.form-group(id="passform")
+						label(for="password") Mot de passe
+						input.form-control(name="password",id="password",type="password",placeholder="Mot de passe")
+				.form-check
+					input.form-check-input(type="radio",name="tableconf",id="invit",value="invit")
+					label.form-check-label(for="invit") Table sur invitation
+		.row
+			.col-md-6
+				| Nombre de joueurs
+			.col-md-6
+				.form-check
+					input.form-check-input(type="radio",name="playercount",id="pc3",value="3")
+					label.form-check-label(for="pc3") 3 joueurs (TODO)
+				.form-check
+					input.form-check-input(type="radio",name="playercount",id="pc4",value="4")
+					label.form-check-label(for="pc4") 4 joueurs (TODO)
+				.form-check
+					input.form-check-input(type="radio",name="playercount",id="pc5",value="5",checked="checked")
+					label.form-check-label(for="pc5") 5 joueurs
+				.form-check
+					input.form-check-input(type="checkbox",name="deadplayer",id="dp")
+					label.form-check-label(for="dp") Autoriser les joueurs morts (TODO)
+		.row
+			.col-md-6
+				| Regles de jeu
+			.col-md-6
+				.form-check
+					input.form-check-input(type="checkbox",name="misere",id="misere")
+					label.form-check-label(for="misere") Accepter les annonces de misères
+				.form-check
+					input.form-check-input(type="checkbox",name="poignee",id="poignee",checked="checked")
+					label.form-check-label(for="poignee") Accepter les annonces de poignées
+		.row
+			.col-md-6
+				| Configuration
+			.col-md-6
+				.form-check
+					input.form-check-input(type="checkbox",name="autodistrib",id="autodistrib")
+					label.form-check-label(for="autodistrib") Distribution automatique (TODO)
+				.form-check
+					input.form-check-input(type="checkbox",name="autocut",id="autocut")
+					label.form-check-label(for="autocut") Coupe automatique (TODO)
+		.row
+			.col-md-6
+				| Variantes
+			.col-md-6
+				.form-check
+					input.form-check-input(type="checkbox",name="showchien",id="showchien",checked="checked")
+					label.form-check-label(for="showchien") Afficher le chien avant appel à la défense uniquement
+		.row
+			button.btn.btn-primary(type="submit") Créer une table
+include footer.pug

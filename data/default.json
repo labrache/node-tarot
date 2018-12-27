@@ -1,0 +1,11 @@
+{
+	"port":8000,
+	"sitename":"Node-Tarot [Debug]",
+	"databasepath": "data/db.sqlite3",
+	"logpath": "data/logs/",
+	"avatarPath": "webres/data/dev/",
+	"debug": true,
+	"debugAutoplay": true,
+	"debugRecap": true,
+	"register": false
+}

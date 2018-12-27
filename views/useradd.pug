@@ -1,0 +1,21 @@
+include header.pug
+.container.content-page
+	.row
+		.col-md-8.offset-md-2
+			h2 Ajouter un utilisateur
+			form(method="post",action="")
+				.form-group
+					label(for="login") login
+					input.form-control(type="text",id="login",name="login",placeholder="Login")
+				.form-group
+					label(for="name") Nom
+					input.form-control(type="text",id="name",name="name",placeholder="Nom")
+				.form-group
+					label(for="mail") Adresse courriel
+					input.form-control(type="text",id="mail",name="email",placeholder="Adresse courriel")
+				.form-group
+					label(for="pass") Mot de passe
+					input.form-control(type="password",id="pass",name="pass",placeholder="Mot de passe")
+				button.btn.btn-primary(type="submit") Valider
+				a.btn.btn-default(href="/users") Retour
+include footer.pug

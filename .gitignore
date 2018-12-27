@@ -1,0 +1,9 @@
+node_modules/
+data/*.sqlite3
+data/logs/
+webres/data/dev/avatar_large/
+webres/data/dev/avatar_small/
+webres/data/dev/avatar_upload/
+webres/data/prod/avatar_large/
+webres/data/prod/avatar_small/
+webres/data/prod/avatar_upload/

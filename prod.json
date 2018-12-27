@@ -1,0 +1,12 @@
+{
+	"port":8000,
+	"sitename":"Node-Tarot",
+	"databasepath": "data/dbprod.sqlite3",
+	"logpath": "data/logs/",
+	"avatarPath": "webres/data/prod/",
+	"debug": false,
+	"debugAutoplay": false,
+	"debugRecap": false,
+	"register": true,
+	"registerInviteCode": "e8e3ecfb553ab070e0a5ab378c57e7c2"
+}

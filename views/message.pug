@@ -1,0 +1,8 @@
+include header.pug
+.container.content-page
+	.jumbotron
+		h1.display-4=title
+		p.lead=message
+		if link
+			a.btn.btn-primary.btn-lg(role="button",href=link) Ok
+include footer.pug

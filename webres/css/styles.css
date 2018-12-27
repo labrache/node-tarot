@@ -1,0 +1,19 @@
+.content-page{
+	margin-top: 2rem;
+}
+.oi {
+	vertical-align: sub;
+	margin-right: 0.4rem;
+}
+.space-before {
+	margin-top: 10em;
+}
+.cards {
+	font-size: 1em;
+}
+.game {
+	width:100%
+}
+.playerpict {
+	box-shadow: 0px 0px 5px #ffffff;
+}

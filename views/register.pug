@@ -1,0 +1,28 @@
+include header.pug
+.container.content-page
+	.row
+		.col-md-8.offset-md-2
+			h2 Inscription
+			if error
+				.alert.alert-danger(role="alert")
+					ul
+						each err in error
+							li=err
+			form(method="post",action="/register")
+				.form-group
+					label(for="login") login
+					input.form-control(type="text",id="login",name="login",placeholder="Login")
+				.form-group
+					label(for="name") Nom
+					input.form-control(type="text",id="name",name="name",placeholder="Nom")
+				.form-group
+					label(for="mail") Adresse courriel
+					input.form-control(type="text",id="mail",name="mail",placeholder="Adresse courriel")
+				.form-group
+					label(for="pass") Mot de passe
+					input.form-control(type="password",id="pass",name="pass",placeholder="Mot de passe")
+				if checkInvite
+					.form-group
+						label(for="inviteCode") Code d'invitation
+						input.form-control(type="text",id="inviteCode",name="inviteCode",placeholder="Code d'invitation",value=urlcode)
+				button.btn.btn-primary(type="submit") Valider

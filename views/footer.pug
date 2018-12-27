@@ -1,0 +1,24 @@
+if session.login
+	#invitedmodal.modal.fade(role="dialog")
+		.modal-dialog.modal-dialog-centered
+			.modal-content
+				.modal-header
+					h5.modal-title Invitation
+					button.close(type="button",data-dismiss="modal")
+						span &times;
+				.modal-body
+					.media
+						img.mr-3.rounded.playerpict(width="100")
+						.media-body
+							h5.mt-0.playername
+							table.table.table-borderless.table-sm
+								tr
+									th Nom de la table
+									td.tablename
+								tr
+									th Nombre de joueurs
+									td.playercount
+				.modal-footer
+					button.btn.btn-primary(type="button",data-dismiss="modal") Fermer
+					button.btn.btn-success.joinbutton(type="button") Rejoindre
+	script(src='/webres/js/socket.js')

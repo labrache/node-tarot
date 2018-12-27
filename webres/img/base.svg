@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1101.6313"
+   height="767.37805"
+   viewBox="0 0 291.4733 203.03543"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="base.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="471.12481"
+     inkscape:cy="386.83118"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layerBase"
+     showgrid="false"
+     inkscape:snap-center="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2080"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-grids="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:identifier>base</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style
+     id="style5">
+  .deck, .deck_chien, .deck_call {
+	opacity: 0.9;
+	cursor: pointer;
+  }
+  .deck:hover, .deck_chien:hover, .deck_call:hover {
+	opacity: 1;
+  }
+  .deck.deny {
+	cursor: not-allowed;
+  }
+  .playerProfil {
+	cursor: pointer;
+  }
+  .playerProfil:hover .playerName{
+	text-decoration: underline;
+  }
+</style>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layerBase"
+     transform="translate(-1.9698547,-89.37546)">
+    <rect
+       id="fond"
+       width="290.54871"
+       height="201.3074"
+       x="2.4321525"
+       y="90.64119"
+       style="fill:none;stroke-width:0.55550617" />
+    <circle
+       style="fill:#217821;stroke:#000000;stroke-width:0.72402561;stroke-opacity:1"
+       id="rond"
+       cx="148.14183"
+       cy="153.73747"
+       r="64" />
+    <g
+       id="j1"
+       transform="translate(-0.82925677,0.10214233)">
+      <rect
+         y="90.539047"
+         x="3.2614093"
+         height="34.512039"
+         width="89.714867"
+         id="j1_cadre"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.70221853;stroke-opacity:1" />
+      <text
+         inkscape:label="#j1_name"
+         id="j1_name"
+		 class="playerName"
+         y="101.86652"
+         x="35.546844"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="101.86652"
+           x="35.546844"
+           id="tspan895"
+           sodipodi:role="line">Libre</tspan></text>
+      <text
+         inkscape:label="#j1_state"
+         id="j1_state"
+         y="121.32376"
+         x="35.546848"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="121.32376"
+           x="35.546848"
+           id="tspan917"
+           sodipodi:role="line">N/A</tspan></text>
+      <text
+         inkscape:label="#j1_ctr"
+         id="j1_ctr"
+         y="109.35009"
+         x="34.985584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="109.35009"
+           x="34.985584"
+           id="tspan915"
+           sodipodi:role="line">N/A</tspan></text>
+      <rect
+         y="94.412567"
+         x="6.2035155"
+         height="27.068676"
+         width="25.946146"
+         id="j1_img"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.92400002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="j2">
+      <rect
+         inkscape:label="#j2_cadre"
+         y="90.64119"
+         x="203.26601"
+         height="34.512039"
+         width="89.714867"
+         id="j2_cadre"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.70221853;stroke-opacity:1" />
+      <text
+         inkscape:label="#j2_name"
+         id="j2_name"
+		 class="playerName"
+         y="101.96868"
+         x="235.55145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="101.96868"
+           x="235.55145"
+           id="tspan897"
+           sodipodi:role="line">Libre</tspan></text>
+      <text
+         inkscape:label="#j2_state"
+         id="j2_state"
+         y="121.42593"
+         x="235.55145"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="121.42593"
+           x="235.55145"
+           id="tspan921"
+           sodipodi:role="line">N/A</tspan></text>
+      <text
+         inkscape:label="#j2_ctr"
+         id="j2_ctr"
+         y="109.45226"
+         x="234.99019"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="109.45226"
+           x="234.99019"
+           id="tspan919"
+           sodipodi:role="line">N/A</tspan></text>
+      <rect
+         inkscape:label="#j2_img"
+         y="94.514725"
+         x="206.20811"
+         height="27.068676"
+         width="25.946148"
+         id="j2_img"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.92400002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="j5">
+      <rect
+         inkscape:label="#j5_cadre"
+         y="174.41309"
+         x="2.8501785"
+         height="34.512039"
+         width="89.714867"
+         id="j5_cadre"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.70221853;stroke-opacity:1" />
+      <text
+         inkscape:label="#j5_name"
+         id="j5_name"
+		 class="playerName"
+         y="185.74055"
+         x="35.135609"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="185.74055"
+           x="35.135609"
+           id="tspan899"
+           sodipodi:role="line">Libre</tspan></text>
+      <text
+         inkscape:label="#j5_state"
+         id="j5_state"
+         y="205.19777"
+         x="35.135609"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="205.19777"
+           x="35.135609"
+           id="tspan933"
+           sodipodi:role="line">N/A</tspan></text>
+      <text
+         inkscape:label="#j5_ctr"
+         id="j5_ctr"
+         y="193.22414"
+         x="34.57436"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="193.22414"
+           x="34.57436"
+           id="tspan931"
+           sodipodi:role="line">N/A</tspan></text>
+      <rect
+         inkscape:label="#j5_img"
+         y="178.28661"
+         x="5.7922859"
+         height="27.068676"
+         width="25.946148"
+         id="j5_img"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.92400002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="j3">
+      <rect
+         inkscape:label="#j3_cadre"
+         y="175.72267"
+         x="203.22214"
+         height="34.512039"
+         width="89.714867"
+         id="j3_cadre"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.70221853;stroke-opacity:1" />
+      <text
+         inkscape:label="#j3_name"
+         id="j3_name"
+		 class="playerName"
+         y="187.05014"
+         x="235.50757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="187.05014"
+           x="235.50757"
+           id="tspan901"
+           sodipodi:role="line">Libre</tspan></text>
+      <text
+         inkscape:label="#j3_state"
+         id="j3_state"
+         y="206.50742"
+         x="235.50758"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="206.50742"
+           x="235.50758"
+           id="tspan925"
+           sodipodi:role="line">N/A</tspan></text>
+      <text
+         inkscape:label="#j3_ctr"
+         id="j3_ctr"
+         y="194.53372"
+         x="234.94632"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="194.53372"
+           x="234.94632"
+           id="tspan923"
+           sodipodi:role="line">N/A</tspan></text>
+      <rect
+         inkscape:label="#j3_img"
+         y="179.59621"
+         x="206.16425"
+         height="27.068676"
+         width="25.946148"
+         id="j3_img"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.92400002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="j4">
+      <rect
+         inkscape:label="#j4_cadre"
+         y="199.10876"
+         x="104.81351"
+         height="34.512039"
+         width="89.714867"
+         id="j4_cadre"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.70221853;stroke-opacity:1" />
+      <text
+         inkscape:label="#j4_name"
+         id="j4_name"
+		 class="playerName"
+         y="209.31369"
+         x="136.35059"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="209.31369"
+           x="136.35059"
+           id="tspan903"
+           sodipodi:role="line">Libre</tspan></text>
+      <text
+         inkscape:label="#j4_state"
+         id="j4_state"
+         y="229.89346"
+         x="137.09894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="229.89346"
+           x="137.09894"
+           id="tspan929"
+           sodipodi:role="line">N/A</tspan></text>
+      <text
+         inkscape:label="#j4_ctr"
+         id="j4_ctr"
+         y="217.9198"
+         x="136.53767"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="217.9198"
+           x="136.53767"
+           id="tspan927"
+           sodipodi:role="line">N/A</tspan></text>
+      <rect
+         inkscape:label="#j4_img"
+         y="202.98227"
+         x="107.75561"
+         height="27.068676"
+         width="25.946148"
+         id="j4_img"
+         style="fill:#9dac93;stroke:#000000;stroke-width:0.92400002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:#ccffaa;stroke:#000000;stroke-width:0.92459553;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="deck"
+       width="290.54871"
+       height="42.843304"
+       x="2.4321525"
+       y="249.1053"
+       ry="1.9843749" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.15540595;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="j1_deck"
+       width="22.623505"
+       height="40.460751"
+       x="105.15155"
+       y="89.507286"
+       inkscape:label="#rect908" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.15540595;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="j2_deck"
+       width="22.623505"
+       height="40.460754"
+       x="169.39867"
+       y="91.328804"
+       inkscape:label="#rect908" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.15540595;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="j5_deck"
+       width="22.623505"
+       height="40.460754"
+       x="96.505951"
+       y="141.86421"
+       inkscape:label="#rect908" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.15540595;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="j3_deck"
+       width="22.623505"
+       height="40.460754"
+       x="177.60074"
+       y="142.92255"
+       inkscape:label="#rect908" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.15540595;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="j4_deck"
+       width="22.623505"
+       height="40.460754"
+       x="137.78094"
+       y="158.40068"
+       inkscape:label="#rect908" />
+  </g>
+</svg>

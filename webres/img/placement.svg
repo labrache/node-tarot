@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="181.90227"
+   height="151.90227"
+   viewBox="0 0 181.90091 151.90226"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="placement.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.919596"
+     inkscape:cx="11.073129"
+     inkscape:cy="53.962394"
+     inkscape:document-units="px"
+     inkscape:current-layer="layerPlace"
+     showgrid="true"
+     borderlayer="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-grids="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2080"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1437"
+       originx="60.950452"
+       originy="-79.048855" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:identifier>ctrbox</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style
+     id="style6">
+  .button {
+	cursor: pointer;
+  }
+  .button:hover rect.btn {
+	stroke:red !important;
+  }
+</style>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layerPlace"
+     transform="translate(15.175278,-46.43804)">
+    <rect
+       style="fill:#aade87;stroke:#000000;stroke-width:1.90226328;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="place_bords"
+       width="180"
+       height="150"
+       x="-14.22482"
+       y="47.389172"
+       inkscape:label="#rect1391"
+       ry="7.600884" />
+    <circle
+       style="opacity:1;fill:#445500;fill-opacity:1;stroke:#000000;stroke-width:0.79699999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path847"
+       cx="76.053505"
+       cy="117.84475"
+       inkscape:label="path847"
+       r="30" />
+    <g
+       class="button"
+       id="spec">
+      <rect
+		 class="btn"
+         y="177.38916"
+         x="105.77495"
+         height="9.9999933"
+         width="50.000019"
+         id="rect4682"
+         style="opacity:1;fill:#d38d5f;fill-opacity:1;stroke:#000000;stroke-width:1.02892232;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text885"
+         y="184.83904"
+         x="109.33524"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="184.83904"
+           x="109.33524"
+           id="tspan883"
+           sodipodi:role="line">Spectateur</tspan></text>
+    </g>
+    <g
+       class="button"
+       id="p1">
+      <rect
+		 class="btn"
+         y="77.389168"
+         x="5.7749538"
+         height="20.000002"
+         width="39.999996"
+         id="rect4552"
+         style="opacity:1;fill:#d38d5f;fill-opacity:1;stroke:#000000;stroke-width:1.12712812;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:label="#path4617"
+         r="6"
+         cy="77.590942"
+         cx="45.737839"
+         id="p1_led"
+         style="opacity:1;fill:#66ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0439893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4686"
+         y="80.065559"
+         x="43.375843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="80.065559"
+           x="43.375843"
+           id="tspan4684"
+           sodipodi:role="line">1</tspan></text>
+      <text
+         inkscape:label="#text4686-2"
+         id="p1_txt"
+         y="90.191833"
+         x="6.252739"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="90.191833"
+           x="6.252739"
+           id="tspan4684-6"
+           sodipodi:role="line">Libre</tspan></text>
+    </g>
+    <g
+       class="button"
+       id="p2">
+      <rect
+		 class="btn"
+         y="77.389168"
+         x="105.77496"
+         height="20"
+         width="39.999992"
+         id="rect4552-3"
+         style="opacity:1;fill:#d38d5f;fill-opacity:1;stroke:#000000;stroke-width:1.12712824;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:label="#path4617-8"
+         r="5.9999995"
+         cy="77.843483"
+         cx="144.68074"
+         id="p2_led"
+         style="opacity:1;fill:#66ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0439893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4686-9"
+         y="80.318092"
+         x="142.06621"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="80.318092"
+           x="142.06621"
+           id="tspan4684-7"
+           sodipodi:role="line">2</tspan></text>
+      <text
+         inkscape:label="#text4686-2-0"
+         id="p2_txt"
+         y="90.59539"
+         x="106.33207"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="90.59539"
+           x="106.33207"
+           id="tspan4684-6-7"
+           sodipodi:role="line">Libre</tspan></text>
+    </g>
+    <g
+       class="button"
+       id="p3">
+      <rect
+		 class="btn"
+         y="127.38917"
+         x="115.77495"
+         height="19.999994"
+         width="40.000004"
+         id="rect4552-3-1"
+         style="opacity:1;fill:#d38d5f;fill-opacity:1;stroke:#000000;stroke-width:1.12712872;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:label="#path4617-8-7"
+         r="5.999999"
+         cy="127.61823"
+         cx="155.4136"
+         id="p3_led"
+         style="opacity:1;fill:#66ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0439893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4686-9-3"
+         y="130.32063"
+         x="152.79909"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="130.32063"
+           x="152.79909"
+           id="tspan4684-7-9"
+           sodipodi:role="line">3</tspan></text>
+      <text
+         inkscape:label="#text4686-2-0-4"
+         id="p3_txt"
+         y="140.62268"
+         x="116.05479"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="140.62268"
+           x="116.05479"
+           id="tspan4684-6-7-0"
+           sodipodi:role="line">Libre</tspan></text>
+    </g>
+    <g
+       class="button"
+       id="p4">
+      <rect
+		 class="btn"
+         y="157.38916"
+         x="55.774952"
+         height="19.999992"
+         width="39.999989"
+         id="rect4552-3-1-8"
+         style="opacity:1;fill:#d38d5f;fill-opacity:1;stroke:#000000;stroke-width:1.12712824;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:label="#path4617-6-8"
+         r="5.999999"
+         cy="157.64296"
+         cx="95.485298"
+         id="p4_led"
+         style="opacity:1;fill:#66ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0439893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4686-9-4"
+         y="160.44691"
+         x="92.695007"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="160.44691"
+           x="92.695007"
+           id="tspan4684-7-4"
+           sodipodi:role="line">4</tspan></text>
+      <text
+         inkscape:label="#text4686-2-0-4-9"
+         id="p4_txt"
+         y="170.72421"
+         x="56.076977"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="170.72421"
+           x="56.076977"
+           id="tspan4684-6-7-0-9"
+           sodipodi:role="line">Libre</tspan></text>
+    </g>
+    <g
+       class="button"
+       id="p5">
+      <rect
+		 class="btn"
+         y="127.38917"
+         x="-4.2250452"
+         height="19.999987"
+         width="40"
+         id="rect4552-3-1-8-5"
+         style="opacity:1;fill:#d38d5f;fill-opacity:1;stroke:#000000;stroke-width:1.12712789;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:label="#path4617-6"
+         r="5.9999995"
+         cy="127.81872"
+         cx="35.458008"
+         id="p5_led"
+         style="opacity:1;fill:#66ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0439893;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4686-9-5"
+         y="130.64485"
+         x="32.97229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="130.64485"
+           x="32.97229"
+           id="tspan4684-7-44"
+           sodipodi:role="line">5</tspan></text>
+      <text
+         inkscape:label="#text4686-2-0-4-9-6"
+         id="p5_txt"
+         y="140.5459"
+         x="-3.9008272"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="140.5459"
+           x="-3.9008272"
+           id="tspan4684-6-7-0-9-8"
+           sodipodi:role="line">Libre</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="-9.2510633"
+       y="56.757828"
+       id="text979"><tspan
+         sodipodi:role="line"
+         id="tspan977"
+         x="-9.2510633"
+         y="56.757828"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.99999952px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Veuillez selectionner un emplacement</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+include header.pug
+.container.content-page
+	.row
+		.col
+			h1.display-4 Liste des utilisateurs
+			hr
+	.row
+		.col
+			table.table
+				thead
+					tr
+						th(scope="col") Login
+						th(scope="col") Nom
+						th(scope="col") Courriel
+						th(scope="col") Suppr
+				tbody
+					each user in users
+						tr
+							td=user.login
+							td=user.name
+							td=user.mail
+							td
+								a(href="/user/"+user.login+"/delete")
+									span.oi(data-glyph="trash")
+									| Suppr
+			a.btn.btn-success(href="/user/add") 
+				span.oi(data-glyph="plus")
+				| Ajouter un utilisateur
+include footer.pug

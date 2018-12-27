@@ -1,0 +1,31 @@
+include header.pug
+.container.content-page
+	.row
+		.col
+			h1.display-4 Liste des tables
+			hr
+	.row
+		.col-3
+			| Options ...
+		.col
+			table.table.table-hover
+				thead.thead-dark
+					tr
+						th Nom
+						th Places
+						th &nbsp;
+				tbody
+					each table in tables
+						tr(data-id=table.id)
+							td=table.name
+							td=table.playercount
+							td
+								if table.passwordProtected
+									a.btn.btn-warning(href="table_"+table.id)
+										span.oi(data-glyph="lock-locked")
+										| Rejoindre	
+								else
+									a.btn.btn-success(href="table_"+table.id)
+										span.oi(data-glyph="caret-right")
+										| Rejoindre
+include footer.pug

@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "latest",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "cookie-session": "latest",
     "express": "4.16.3",
     "express-session": "1.15.6",
